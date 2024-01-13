@@ -5,7 +5,7 @@
 header {
     position: relative;
     height: 100vh;
-    background: url( /img/headerbg.jpg) 56% 50% / cover;
+    background: url('../img/headerbg.jpg') 56% 50% / cover;
     text-align: center;
 }
 
@@ -75,8 +75,8 @@ h5 span { color: var(--yasil); }
 #yourbody { background: url('../img/yourbody.jpg') center/cover; }
 #lifestyle { background: url('../img/lifestyle.jpg') center/cover; }
 #summeroffun { background: url('../img/summeroffun.jpg') center/cover; }
-#grape { background: url('/img/grape.jpg') center/cover; }
-#mango { background: url('/img/mango.jpg') center/cover; }
+#grape { background: url('../img/grape.jpg') center/cover; }
+#mango { background: url('../img/mango.jpg') center/cover; }
 
 article.col25 { 
     padding: 30px 10px; 
@@ -92,7 +92,7 @@ article.col25 p {
 
 footer {
     position: relative;
-    background: url('/img/footerbg.jpg') 56% 50% / cover;
+    background: url('../img/footerbg.jpg') 56% 50% / cover;
     height: 100vh;
     text-align: center;
     
@@ -168,11 +168,6 @@ input {
     background: var(--yasil);
    
 }
-
-    
-
-
-
 @media only screen and (min-width: 768px) {
     header { text-align: initial; }
     #menu { float: right; }
