@@ -1,0 +1,208 @@
+:root {
+    --qirmizi: #fd634d;
+    --yasil: #a1c927;
+}
+header {
+    position: relative;
+    height: 100vh;
+    background: url( /img/headerbg.jpg) 56% 50% / cover;
+    text-align: center;
+}
+
+nav, #title {
+    position: absolute;
+    width: 100%;
+}
+nav {
+    padding: 40px 50px;
+}
+#menu li a {
+    font: .8em 'Avenir Next Rounded Std', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+#title {
+    bottom: 17%;
+}
+h1 {
+    font: 2em 'Myriad Pro', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+h2 {
+    font: 2em 'Open Sans';
+    text-transform: uppercase;
+}
+h4 {
+    font: 45px "Open Sans";
+    letter-spacing: 0px;
+    line-height: 40px;
+    color: #fff;
+
+    
+    
+    
+}
+h5 {
+    font: 1em 'Myriad Pro', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+h6 {
+    font: .9em 'Montserrat';
+    text-transform: uppercase;
+    
+}
+h1 span { color: var(--qirmizi); }
+h5 span { color: var(--yasil); }
+
+.bg-ag { background-color:  white; }
+.bg-qirmizi { background-color: var(--qirmizi); }
+.bg-yasil { background-color: var(--yasil); }
+.txt-ag { color: white; }
+.txt-yasil { color: var(--yasil);}
+.txt-qirmizi { color: var(--qirmizi);}
+.vh50 { min-height: 50vh; } 
+.artpadd { padding: 50px 40px;}
+.acenter { text-align: center;}
+
+
+#art4 { padding: 60px 0; }
+
+#fitnessfirst { background: url('../img/fitnessfirst.jpg') center/cover; }
+#yourbody { background: url('../img/yourbody.jpg') center/cover; }
+#lifestyle { background: url('../img/lifestyle.jpg') center/cover; }
+#summeroffun { background: url('../img/summeroffun.jpg') center/cover; }
+#grape { background: url('/img/grape.jpg') center/cover; }
+#mango { background: url('/img/mango.jpg') center/cover; }
+
+article.col25 { 
+    padding: 30px 10px; 
+}
+article.col25 i { 
+    font-size: 1.5em; 
+}
+article.col25 p { 
+    font: .9em/1.5em 'Proxima Nova'; 
+    padding: 13px 0;
+}
+
+
+footer {
+    position: relative;
+    background: url('/img/footerbg.jpg') 56% 50% / cover;
+    height: 100vh;
+    text-align: center;
+    
+}
+.sit {
+    font: 1em "Open Sans";
+    color: #fff;
+    padding: 10px;
+    
+}
+#footer1{
+    background: #0c1119;
+    height: 100vh;
+} 
+#footer1 h5 {
+    text-align: initial;
+}
+#footer2 .h5 {
+    font: .9em "Open Sans";
+    color: #8297a7;
+    text-align: initial;
+    padding: 0 0 20px 0 ;
+    text-transform: capitalize;
+    
+}
+.ft2 p {
+    font: .87em "Open Sans";
+    line-height: 1.5em;
+    color: #fff;
+    padding: 0 48px 5px 3px;
+ 
+}
+.footer{
+    position: relative;
+    margin: auto;
+    height: 100vh;
+    
+
+
+}
+.ft2{
+    text-align: initial;
+    padding-top: 73px;
+}
+.footertext {
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, 0);
+}
+#icons {
+    display: flex;
+}
+#icons a {
+    font-size: 2em;
+    color: #AAA;
+    letter-spacing: 7px;
+}
+.fa-facebook:hover { background-color: #00008b; }
+.twitter:hover { background-color: #0000; }
+.fa-youtube:hover { background-color: #ff0000; }
+.fa-linkedin:hover { background-color: #add8e6; }
+    
+.join {
+    padding-top: 27px;
+}
+input {
+    padding: 3px;
+}
+#sub {
+    color: #fff;
+    background: var(--yasil);
+   
+}
+
+    
+
+
+
+@media only screen and (min-width: 768px) {
+    header { text-align: initial; }
+    #menu { float: right; }
+    #menu li { display: inline-block; padding: 20px 1.87vw; }
+    #title { left: 115px; width: initial; }
+    h1 { font-size: 2.5em }
+    h2 { font-size: 2.2em; }
+    h5 { text-align: right; padding: 0 25px }
+    
+    .container { max-width: 1180px; margin: auto;}
+    .row:after { display: table; content:''; clear: both; }
+    .fleft { float: left; } 
+    .fright { float: right; }
+    .col25 { width: 25%;}
+    .col33 { width: 33.33%; }
+    .col66 { width: 66.66%; float: left;}
+    .artpadd { padding: 50px 40px; }
+    .ft2 {
+        display: flex;
+    }
+    .join {
+        text-align: right;
+    }
+    #icons a {
+        font-size: 2.5em;
+    }
+    input {
+        padding: 15px 0 15px 23px;
+    }
+    #sub {
+         padding-right: 23px;
+    }
+}
